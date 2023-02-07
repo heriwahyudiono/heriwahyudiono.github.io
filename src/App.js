@@ -9,18 +9,20 @@ import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/portofolio" element={<Portofolio />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/software-gratis" element={<SofwareGratis />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Navbar />
-      </Router>
-    </div>
+    <>
+      <div>
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/portofolio" element={<Portofolio />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/software-gratis" element={<SofwareGratis />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Navbar />
+        </Router>
+      </div>
+    </>
   );
 };
 
