@@ -1,7 +1,6 @@
 import React from "react";
 import MetaTags from "react-meta-tags";
 import "./Home.css";
-import Logo from "../assets/img/logo.png";
 import profilePicture from "../assets/img/heri_wahyudiono.jpg";
 import WhatsApp from "../assets/icon/whatsapp.png";
 import Instagram from "../assets/icon/instagram.png";
@@ -11,7 +10,6 @@ const Home = () => {
   return (
     <>
       <MetaTags>
-        <link rel="icon" type="image/png" href={Logo} />
         <title>Home | Heri Wahyudiono</title>
       </MetaTags>
       <div className="mt-16">
@@ -26,7 +24,7 @@ const Home = () => {
           Saya sudah belajar coding selama satu tahun dan saya ingin mendalami
           Front End
         </p>
-        <div className="floating-element">
+        <div className="floating-animation">
           <div className="flex gap-x-4 mt-8 justify-center">
             <a href="https://wa.me/6285609839193">
               <img src={WhatsApp} className="w-8 hover:scale-125" />
