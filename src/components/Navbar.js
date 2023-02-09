@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="w-full h-[60px] bg-gray-100 border-b-2 border-b-green-400 opacity-75 fixed top-0 flex flex-row-reverse justify-between">
+      <header className="w-full h-[60px] bg-gray-100 border-b-2 border-b-green-400 fixed top-0 flex flex-row-reverse justify-between">
         <img
           onClick={toggleNavigation}
           className="h-[35px] mr-6 my-3 justify-end"

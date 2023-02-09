@@ -38,7 +38,7 @@ const Home = () => {
                 className="w-8 hover:scale-125 transform transition-all duration-200"
               />
             </a>
-            <a href="https://telegram.org/heri_wahyudiono" className="mx-2">
+            <a href="https://t.me/heri_wahyudiono" className="mx-2">
               <img
                 src={Telegram}
                 className="w-8 hover:scale-125 transform transition-all duration-200"
