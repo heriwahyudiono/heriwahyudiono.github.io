@@ -21,19 +21,39 @@ const Navbar = () => {
         />
         <img className="h-[35px] ml-6 my-3 hover:scale-110" src={Logo} />
         {showNavigation && (
-          <nav className="w-[200px] h-auto bg-gray-100 rounded-lg mt-16 mr-6 absolute">
-            <ul>
-              <li className="block p-[5px] m-[5px] flex text-blue-400 font-bold hover:bg-blue-200">
-                <Link to="/">Home</Link>
+          <nav className="w-64 h-auto bg-gray-100 rounded-lg mt-16 mr-6 absolute">
+            <ul className="text-gray-800">
+              <li className="p-5 border-b border-gray-200 hover:bg-gray-200">
+                <Link
+                  to="/"
+                  className="block font-medium text-blue-500 hover:text-blue-800"
+                >
+                  Home
+                </Link>
               </li>
-              <li className="block p-[5px] m-[5px] flex text-blue-400 font-bold hover:bg-blue-200">
-                <Link to="/portofolio">Portofolio</Link>
+              <li className="p-5 border-b border-gray-200 hover:bg-gray-200">
+                <Link
+                  to="/portofolio"
+                  className="block font-medium text-blue-500 hover:text-blue-800"
+                >
+                  Portofolio
+                </Link>
               </li>
-              <li className="block p-[5px] m-[5px] flex text-blue-400 font-bold hover:bg-blue-200">
-                <Link to="/blog">Blog</Link>
+              <li className="p-5 border-b border-gray-200 hover:bg-gray-200">
+                <Link
+                  to="/blog"
+                  className="block font-medium text-blue-500 hover:text-blue-800"
+                >
+                  Blog
+                </Link>
               </li>
-              <li className="block p-[5px] m-[5px] flex text-blue-400 font-bold hover:bg-blue-200">
-                <Link to="/software-gratis">Software Gratis</Link>
+              <li className="p-5 border-b border-gray-200 hover:bg-gray-200">
+                <Link
+                  to="/software-gratis"
+                  className="block font-medium text-blue-500 hover:text-blue-800"
+                >
+                  Software Gratis
+                </Link>
               </li>
             </ul>
           </nav>
