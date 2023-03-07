@@ -13,7 +13,7 @@ const Home = () => {
       <MetaTags>
         <title>Home | Heri Wahyudiono</title>
       </MetaTags>
-      <div className="flex flex-col items-center mt-16">
+      <div className="flex flex-col items-center mt-14 bg-slate-100">
         <img
           src={profilePicture}
           className="w-40 mt-36 mx-auto rounded-full border-4 border-blue-600 hover:scale-90 transform transition-all duration-200"
@@ -22,7 +22,7 @@ const Home = () => {
           Heri Wahyudiono | Front End Developer
         </p>
         <div className="floating-animation">
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 pb-8 flex justify-center">
             <a href="https://wa.me/6285609839193" className="mx-2">
               <img
                 src={WhatsApp}
